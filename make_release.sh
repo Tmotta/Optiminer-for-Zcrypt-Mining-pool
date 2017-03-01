@@ -22,6 +22,7 @@ cp ~/programme/optiminer-zcash/openssl-license.txt optiminer-zcash/
 cp ~/programme/optiminer-zcash/mine.sh optiminer-zcash/
 cp ~/programme/optiminer-zcash/watchdog-cmd.sh optiminer-zcash/
 cp README.md optiminer-zcash/
+rm bin/x*.bin
 strip optiminer-zcash/optiminer-zcash
 tar -h -czvf optiminer-zcash-${VERSION}.tar.gz optiminer-zcash/*
 
